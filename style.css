@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#background {
+  background-color: rgb(220,220,220);
+  width: 100vw;
+  height: 100vh;
+}
+
+#background:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.colonna {
+  background-color: white;
+  float: left;
+  margin: 4%;
+  padding: 2%;
+  /* display: inline-block; */
+}
+
+.sinistra {
+  /* width: 27.72%; */
+  width: calc(((100% - 16%) /100) * 33);
+  text-align: center;
+}
+
+.destra {
+  /* width: 56.28%; */
+  width: calc(((100% - 16%) /100) * 67);
+}
+
+#nome {
+  font-size: 60px;
+  font-family: arial;
+  text-align: center;
+  color: rgb(228,108,91);
+}
+
+#attore {
+  border-radius: 50%;
+}
+
+#film {
+  width: 150px;
+}
