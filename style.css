@@ -16,13 +16,12 @@ display: table;
 clear: both;
 }
 
-
 .colonna {
   background-color: white;
   float: left;
   margin: 4%;
   padding: 2%;
-  /* display: inline-block; */
+  border-radius: 20px;
 }
 
 .sinistra {
@@ -34,13 +33,35 @@ clear: both;
 .destra {
   /* width: 56.28%; */
   width: calc(((100% - 16%) /100) * 67);
+  /* display: block; */
 }
 
 #nome {
-  font-size: 60px;
+  font-size: 40px;
   font-family: arial;
   text-align: center;
   color: rgb(228,108,91);
+}
+
+h1 {
+  height: 80px;
+  line-height: 80px;
+  font-family: arial;
+}
+
+h2, #biografia {
+  font-family: arial;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#biografia {
+  text-align:justify;
+  font-family: arial;
 }
 
 #attore {
@@ -48,5 +69,22 @@ clear: both;
 }
 
 #film {
-  width: 150px;
+  width: 100px;
+}
+
+button {
+  background-color: rgb(228,108,91);
+  color: white;
+  border-radius: 5px;
+  font-size: 40px;
+  padding: 8px;
+}
+
+.social {
+  margin: 20px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
